@@ -1,0 +1,41 @@
+body{
+    background-color: #ececec;
+
+}
+.sepet-icon{
+    font-size: 16px;
+
+}
+.sepet-count{
+    position: relative;
+    background-color: red;
+
+    font-size: 8px;
+    top:-10px;
+    left:-2px;
+}
+.sepet-kirmizi-yazi{
+    color: #d9534f;
+}
+.sepet-adet-girisi{
+    width: 50px;
+    text-align: center;
+}
+/*tablonun içerisini tam ortalıyoruz. İmportant kullanma nedenimiz; bootstrap css'i baskılıyor. Bunun önüne geçiyoruz*/
+td{
+    vertical-align: center!important;
+
+
+}
+
+/*Alışveriş sepeti tablosunun en alt kısmını renklendiriyoruz.*/
+tfoot {
+    vertical-align: middle!important;
+    padding: 20px;!important;
+    background-color: #dfdfdf;!important;
+}
+/*Alışveriş sepeti tablosunu gölgelendirdik.*/
+
+table{
+    box-shadow: 0 0 8px rgba(5,5,5,.3);
+}
